@@ -62,13 +62,24 @@ python test_spherical_nion.py
 
 ## Requirements
 
-- Python 3.8+
-- NumPy 1.21+
-- SciPy 1.7+
-- Matplotlib 3.5+
-- Pandas 1.3+
-- Numba 0.56+
+
+Core dependencies:
+- numpy >= 1.21.0
+- scipy >= 1.8.0
+- matplotlib >= 3.5.0
+- pandas >= 1.4.0
+- numba >= 0.56.0
+- joblib >= 1.1.0
+
+Optional for enhanced performance:
+- pyfftw >= 0.12.0
+
+Development dependencies:
+- pytest >= 7.0.0
+- pytest-cov >= 4.0.0
+- pytest-benchmark >= 4.0.0
 
 ## License
 
 MIT License
+
